@@ -5,7 +5,7 @@ Compilation of the binary search algorithm in Rosetta Code.
 
 # ¿Qué hace binary search?
 
-Binary Search es un algoritmo para encontrar un elemento numérico dentro de un arreglo de números ordenados de menor a mayor usando los índices de los elementos y sus valores, para ver más información están las siguientes ligas : 
+Binary Search es un algoritmo para encontrar un elemento numérico dentro de un arreglo de números ordenados de menor a mayor usando los índices de los elementos y sus valores, para más información están las siguientes ligas : 
 
 https://www.geeksforgeeks.org/binary-search/
 
