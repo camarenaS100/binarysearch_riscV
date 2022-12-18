@@ -1,2 +1,2 @@
-# binarysearch_riscV
+# binarysearch_RISCV
 Compilation of Binary Search algorithm in rosettacode
