@@ -53,3 +53,19 @@ Venus RISC-V Simulator muestra el código ensamblado, para verlo completo, ver a
 ![image](https://user-images.githubusercontent.com/66481799/209114434-431b25e3-bd94-46db-9329-feb3779fd604.png)
 
 # Uso en el procesador
+
+Después de obtener solamente el código máquina, es decir, sin PC o las instrucciones optimizadas, se debe revisar cómo hacerlo encajar en el procesador, porque el código supera el tamaño de la memoria, no se podría usar en éste estado. Aquí una comparación con el código original de la ROM, donde se ve que el máximo del código es el de la línea subrayada y las líneas restantes no caben.  
+
+![limite](https://user-images.githubusercontent.com/66481799/209178742-c93ff430-4bb0-47f4-992b-bdaebc57d3bb.png)
+
+Insertándolo directamente como en las siguientes imagenes, dice que ha decodificado 174 de 128 palabras, lo que significa que no se han agregado todas las palabras porque no caben en la ROM. Entonces aunque se puede pegar no funcionará como el programa original.
+
+![noerrorformat](https://user-images.githubusercontent.com/66481799/209178401-05136f7b-0ce2-43e3-bc93-ccd4beeff0c1.png)
+
+![noerrorformat2](https://user-images.githubusercontent.com/66481799/209178425-fafe5cfd-d5bf-4ba6-ba3c-2ae7b7199c53.png)
+
+
+
+
+
+
