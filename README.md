@@ -45,6 +45,8 @@ bsearch_r function
 ![image](https://user-images.githubusercontent.com/66481799/209093823-a877394d-e58c-42f2-acdb-9a7445b85b95.png)
 main function
 
+para revisar que funciona se puede usar un esquema como el incluido en el pdf "Pruebas" con diferentes arreglos.
+
 # Código Máquina 
 
 Venus RISC-V Simulator muestra el código ensamblado, para verlo completo, ver archivo : "venusoriginal".
