@@ -47,4 +47,9 @@ main function
 
 # Código Máquina 
 
+Venus RISC-V Simulator muestra el código ensamblado, para verlo completo, ver archivo : "venusoriginal".
+Ésto es durante depuración.
+
+![image](https://user-images.githubusercontent.com/66481799/209114434-431b25e3-bd94-46db-9329-feb3779fd604.png)
+
 # Uso en el procesador
