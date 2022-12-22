@@ -20,6 +20,20 @@ https://stackoverflow.com/questions/540165/where-is-binary-search-used-in-practi
 
 fuente : https://rosettacode.org/wiki/Binary_search#C
 
+# Marcos 
+
+![image](https://user-images.githubusercontent.com/66481799/209091236-0f582959-9190-42dd-a849-fca2a2247a7c.png)
+bsearch function frame
+
+![image](https://user-images.githubusercontent.com/66481799/209091373-e8fbdd50-6999-431f-aa70-ddeb041c3a59.png)
+bsearch_r function frame
+
+![image](https://user-images.githubusercontent.com/66481799/209091517-2ea8b802-f527-4af7-af16-688865cc8c29.png)
+main function frame
+
+![image](https://user-images.githubusercontent.com/66481799/209091938-d74e1412-8939-4c82-88a5-fc6edcffb616.png)
+program function frame
+
 # Código compilado en RISC-V 
 
 # Código Máquina 
