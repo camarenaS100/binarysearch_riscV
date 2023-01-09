@@ -36,13 +36,13 @@ program function frame
 
 # Código compilado en RISC-V 
 
-![image](https://user-images.githubusercontent.com/66481799/209093307-d91e87c7-2de9-42b2-98de-87be9725cc0e.png)
+
 bsearch function
 
-![image](https://user-images.githubusercontent.com/66481799/209093552-c1058f22-4ce7-42f3-803a-33283b955678.png)
+
 bsearch_r function 
 
-![image](https://user-images.githubusercontent.com/66481799/209093823-a877394d-e58c-42f2-acdb-9a7445b85b95.png)
+
 main function
 
 para revisar que funciona se puede usar un esquema como el incluido en el pdf "Pruebas" con diferentes arreglos.
@@ -52,7 +52,6 @@ para revisar que funciona se puede usar un esquema como el incluido en el pdf "P
 Venus RISC-V Simulator muestra el código ensamblado, para verlo completo, ver archivo : "venusoriginal".
 Ésto es durante depuración.
 
-![image](https://user-images.githubusercontent.com/66481799/209114434-431b25e3-bd94-46db-9329-feb3779fd604.png)
 
 # Uso en el procesador
 
