@@ -5,14 +5,14 @@ Compilation of the binary search algorithm in Rosetta Code.
 
 # Descripción de archivos en el repositorio 
 
-![image](https://user-images.githubusercontent.com/66481799/212404675-d655f7e2-cf27-4fc6-88bb-2674f80ef13f.png)
-
+![image](https://user-images.githubusercontent.com/66481799/212405968-cb7c6bd0-3e3e-4ef3-8f80-8423570c9952.png)
 
 - binsearch.c :  código del algoritmo binary search conseguido de Rosetta Code 
 - binsearch_ro.c : código modificado del código binsearch.c, éste no tiene la función no recursiva
 - bs_sr_betasamplewcx.txt : código ensamblado por Venus de compilación del código binsearch_ro.c
 - bsearch.s : código compilado en lenguaje ensamblador RISC-V de binsearch.c
 - bsearch_ro.s : código compilado en lenguaje ensamblador RISC-V de binsearch_ro.c
+- bsearch_sc.s : mismo código que bsearch.s pero sólo código y comentarios de lado
 - sample_a.txt : ejemplo de código para procesador.
 
 # ¿Qué hace binary search?
