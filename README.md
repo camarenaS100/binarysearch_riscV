@@ -3,6 +3,18 @@ Compilación de algoritmo de binary search de Rosetta Code,
 
 Compilation of the binary search algorithm in Rosetta Code.
 
+# Descripción de archivos en el repositorio 
+
+![image](https://user-images.githubusercontent.com/66481799/212404675-d655f7e2-cf27-4fc6-88bb-2674f80ef13f.png)
+
+
+- binsearch.c :  código del algoritmo binary search conseguido de Rosetta Code 
+- binsearch_ro.c : código modificado del código binsearch.c, éste no tiene la función no recursiva
+- bs_sr_betasamplewcx.txt : código ensamblado por Venus de compilación del código binsearch_ro.c
+- bsearch.s : código compilado en lenguaje ensamblador RISC-V de binsearch.c
+- bsearch_ro.s : código compilado en lenguaje ensamblador RISC-V de binsearch_ro.c
+- sample_a.txt : ejemplo de código para procesador.
+
 # ¿Qué hace binary search?
 
 Binary Search es un algoritmo para encontrar un elemento numérico dentro de un arreglo de números ordenados de menor a mayor usando los índices de los elementos y sus valores, para más información están las siguientes ligas : 
@@ -20,6 +32,15 @@ https://stackoverflow.com/questions/540165/where-is-binary-search-used-in-practi
 
 fuente : https://rosettacode.org/wiki/Binary_search#C
 
+# Código en C para función recursiva
+
+![image](https://user-images.githubusercontent.com/66481799/212400408-93b62b90-e9b3-437e-a46a-1d1a5329d19f.png)
+
+
+Éste es un código sencillo que contiene prints en posiciones del proceso para entender qué sucede y probar diferentes arreglos para comparar con sus contrapartes calculadas manualmente o por otro programa. Algunas partes se deben reemplazar manualmente para que sea usado en general.
+Además es recomendable revisar el pdf de Pruebas donde se ve su ejecución en diferentes arreglos.
+
+
 # Marcos 
 
 ![image](https://user-images.githubusercontent.com/66481799/209091236-0f582959-9190-42dd-a849-fca2a2247a7c.png)
@@ -36,34 +57,19 @@ program function frame
 
 # Código compilado en RISC-V 
 
+![image](https://user-images.githubusercontent.com/66481799/212399546-aba43121-a711-40d6-b0db-bc4844fec1b3.png)
 
 bsearch function
 
+![image](https://user-images.githubusercontent.com/66481799/212399650-7fd0b5f7-a10b-4bd1-9f4f-b515dd8d7ba2.png)
 
 bsearch_r function 
 
+![image](https://user-images.githubusercontent.com/66481799/212399800-72171b80-0e86-4a5b-8f74-c12cbce1eaa7.png)
 
 main function
 
-para revisar que funciona se puede usar un esquema como el incluido en el pdf "Pruebas" con diferentes arreglos.
-
-# Código Máquina 
-
-Venus RISC-V Simulator muestra el código ensamblado, para verlo completo, ver archivo : "venusoriginal".
-Ésto es durante depuración.
-
-
-# Uso en el procesador
-
-Después de obtener solamente el código máquina, es decir, sin PC o las instrucciones optimizadas, se debe revisar cómo hacerlo encajar en el procesador, porque el código supera el tamaño de la memoria, no se podría usar en éste estado. Aquí una comparación con el código original de la ROM, donde se ve que el máximo del código es el de la línea subrayada y las líneas restantes no caben.  
-
-![limite](https://user-images.githubusercontent.com/66481799/209178742-c93ff430-4bb0-47f4-992b-bdaebc57d3bb.png)
-
-Insertándolo directamente como en las siguientes imagenes, dice que ha decodificado 174 de 128 palabras, lo que significa que no se han agregado todas las palabras porque no caben en la ROM. Entonces aunque se puede pegar no funcionará como el programa original.
-
-![noerrorformat](https://user-images.githubusercontent.com/66481799/209178401-05136f7b-0ce2-43e3-bc93-ccd4beeff0c1.png)
-
-![noerrorformat2](https://user-images.githubusercontent.com/66481799/209178425-fafe5cfd-d5bf-4ba6-ba3c-2ae7b7199c53.png)
+Para comprobar que funciona se puede usar un esquema como el incluido en el pdf "Pruebas" con diferentes arreglos.
 
 
 
